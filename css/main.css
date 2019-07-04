@@ -1,0 +1,54 @@
+.dashboard-icons {
+  background: #ef8a38 none repeat scroll 0 0;
+  border: 10px solid #b14c00;
+  border-radius: 40px;
+  margin: 20px;
+  max-height: 150px;
+  max-width: 180px;
+  min-height: 150px;
+  min-width: 180px;
+  padding-top: 20px;
+  text-align: center;
+}
+.dashboard-icons h2 {
+  color: #ddd;
+  font-size: 35px;
+}
+.dashboard-icons a {
+  color: #000;
+  font-size: 50px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.btn {
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+.btn-default {
+  background: #cc6715 none repeat scroll 0 0;
+  border: 2px solid;
+  border-radius: 10px;
+  color: #ddd;
+  font-family: icon;
+  font-weight: bold;
+}
+.btn-default a:hover {}
+.btn-danger {
+  background: red none repeat scroll 0 0;
+  border: 2px solid;
+  border-radius: 10px;
+  color: #ddd;
+  font-family: icon;
+  font-weight: bold;
+}
+.btn-danger a:hover {}
+.apply-btn {
+  padding: 13px;
+  font-size: 25px;
+  text-align: center;
+}
+.apply-btn a {
+  text-decoration: none;
+  color: #fff;
+}

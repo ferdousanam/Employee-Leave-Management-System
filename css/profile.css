@@ -1,0 +1,105 @@
+.content h2 {
+  background: #c45f0d none repeat scroll 0 0;
+  border: 1px solid #edbb69;
+  border-radius: 5px;
+  font-size: 30px;
+  padding: 4px 0 4px 20px;
+}
+.profile-left {
+  background: #ef8a38 none repeat scroll 0 0;
+  width: 300px;
+}
+.profile-left p {
+  border: 1px solid #edbb69;
+  font-weight: bold;
+  padding: 15px;
+}
+.profile-right {
+  background: #edbb69 none repeat scroll 0 0;
+  width: 700px;
+}
+.profile-right p {
+  border: 1px solid #ef8a38;
+  padding: 15px;
+}
+
+.add-employee-row {}
+.add-employee-col {
+  float: left;
+  margin: 0 auto;
+  padding: 10px;
+  width: 312px;
+}
+.add-employee-col img {
+  align-self: center;
+  border: 2px solid #ef8a38;
+  margin: 5px;
+  max-height: 120px;
+  max-width: 120px;
+}
+.add-employee-col h2 {
+  border: 1px solid;
+  font-size: 15px;
+}
+.add-employee-col input[type="file"] {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 8px 5px;
+  padding: 5px;
+  width: 307px;
+}
+.add-employee-col input[type="text"], select {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 8px 0;
+  padding: 12px 20px;
+  width: 312px;
+}
+.add-employee-col input[type="radio"] {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 8px 0;
+  padding: 12px 20px;
+}
+.add-employee-col input[type="submit"] {
+  background-color: #4caf50;
+  border: medium none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  margin: 8px 0;
+  padding: 12px 20px;
+}
+.add-employee-col textarea {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 8px 0;
+  max-height: 80px;
+  max-width: 700px;
+  min-height: 80px;
+  min-width: 700px;
+  padding: 20px;
+}
+.add-employee-col p {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: black;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: normal;
+  margin: 8px 0;
+  padding: 12px 20px;
+  width: 312px;
+}
+input[readonly] {
+  pointer-events: none;
+}

@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^ems\.anam\.gq$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.ems\.anam\.gq$
+RewriteRule ^/?$ "https\:\/\/ems\.anam\.gq" [R=301,L]
